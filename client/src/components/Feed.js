@@ -1,11 +1,12 @@
-import React from 'react'
-
+import React from "react";
+import QuoraBox from "./QuoraBox";
+import './css/Feed.css'
 const Feed = () => {
-    return (
-        <div>
-            feeed
-        </div>
-    )
-}
+  return (
+    <div className="feed">
+      <QuoraBox />
+    </div>
+  );
+};
 
-export default Feed
+export default Feed;
