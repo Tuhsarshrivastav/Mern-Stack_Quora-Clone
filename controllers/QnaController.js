@@ -1,4 +1,6 @@
 const Question = require('../models/Question')
+const Answer = require('../models/Answer')
+
 
 module.exports.question = async (req, res) => {
     const { questionName, questionUrl } = req.body
@@ -56,9 +58,9 @@ module.exports.getQuestion = async (req, res) => {
 }
 
 
-module.exports.GetAllAnswers = async () => {
+module.exports.GetAllAnswers = async (req,res) => {
     try {
-        await answerDB
+        await Answer
             .create({
                 answer: req.body.answer,
                 questionId: req.body.questionId,
