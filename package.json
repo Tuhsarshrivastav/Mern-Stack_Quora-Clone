@@ -1,0 +1,30 @@
+{
+  "name": "mern-stack_quora-clone",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tuhsarshrivastav/Mern-Stack_Quora-Clone.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tuhsarshrivastav/Mern-Stack_Quora-Clone/issues"
+  },
+  "homepage": "https://github.com/Tuhsarshrivastav/Mern-Stack_Quora-Clone#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.2",
+    "mongoose": "^6.1.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
