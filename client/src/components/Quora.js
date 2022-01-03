@@ -1,10 +1,11 @@
 import React from "react";
-import "./css/Quora.css";
 import Feed from "./Feed";
 import QuoraHeader from "./QuoraHeader";
 import Sidebar from "./Sidebar";
 import Widget from "./Widget";
-const Quora = () => {
+import "./css/Quora.css";
+
+function Quora() {
   return (
     <div className="quora">
       <QuoraHeader />
@@ -17,6 +18,6 @@ const Quora = () => {
       </div>
     </div>
   );
-};
+}
 
 export default Quora;
